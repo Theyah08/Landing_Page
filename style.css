@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* =====================
+   Global Styles
+===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    line-height: 1.8;
+    color: #4a4a4a;
+    background-color: #fff7ed;
+}
+
+/* =====================
+   Navbar / Header
+===================== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #ffd6e8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Text Logo only */
+.logo {
+    font-size: 18px;
+    color: #ff5fa2;
+}
+
+.logo span {
+    display: block;
+    font-size: 10px;
+    color: #7c73e6;
+    text-align: center;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links li a {
+    color: #7c73e6;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ff5fa2;
+}
+
+.menu-btn {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #7c73e6;
+}
+
+/* =====================
+   Hero Section
+===================== */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    background: #e0f7fa;
+}
+
+.hero-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 250px; /* adjust size */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffd6e8;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.hero-text {
+    flex: 1; /* takes remaining space */
+}
+
+.hero-text h2 {
+    color: #ff5fa2;
+    margin-bottom: 10px;
+}
+
+.hero-text h3 {
+    color: #7c73e6;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.hero-text p {
+    font-size: 10px;
+}
+
+/* =====================
+   Buttons
+===================== */
+.primary-btn, .secondary-btn {
+    padding: 12px 18px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.primary-btn {
+    background: #ffb3c6;
+    color: #5a2a3c;
+    box-shadow: 0 4px 0 #ff8fab;
+}
+
+.primary-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 #ff8fab;
+}
+
+.secondary-btn {
+    background: #cdb4db;
+    color: #3d2c54;
+    margin-left: 10px;
+    box-shadow: 0 4px 0 #b49bcf;
+}
+
+.secondary-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* =====================
+   Features
+===================== */
+.features {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #fff;
+}
+
+.features h2 {
+    color: #ff5fa2;
+    margin-bottom: 2rem;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.feature-card {
+    padding: 24px;
+    background: #fef6ff;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+}
+
+.feature-card h3 {
+    color: #7c73e6;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.feature-card p {
+    font-size: 10px;
+}
+
+/* =====================
+   About
+===================== */
+.about {
+    padding: 3rem 2rem;
+    background: #fce7f3;
+}
+
+.about h2 {
+    color: #ff5fa2;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 10px;
+    margin-bottom: 1rem;
+}
+
+/* =====================
+   Pricing
+===================== */
+.pricing {
+    padding: 3rem 2rem;
+    background: #e0f2fe;
+    text-align: center;
+}
+
+.pricing h2 {
+    color: #7c73e6;
+    margin-bottom: 2rem;
+}
+
+.pricing-cards {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    background: #ffffff;
+    padding: 24px;
+    width: 240px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.price-card h3 {
+    color: #ff5fa2;
+    margin-bottom: 10px;
+}
+
+.price-card h4 {
+    color: #7c73e6;
+    margin-bottom: 10px;
+}
+
+.price-card ul {
+    list-style: none;
+}
+
+.price-card li {
+    font-size: 10px;
+    margin: 8px 0;
+}
+
+.highlight {
+    border: 3px dashed #ffb3c6;
+}
+
+/* =====================
+   Footer
+===================== */
+footer {
+    background: #ffd6e8;
+    color: #5a2a3c;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+footer h2 {
+    color: #ff5fa2;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 10px;
+    margin: 6px 0;
+}
+
+.socials a {
+    color: #7c73e6;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: #ff5fa2;
+}
+
+/* =====================
+   Responsive
+===================== */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img {
+        margin-bottom: 20px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #ffe4f1;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+}
