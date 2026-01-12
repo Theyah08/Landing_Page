@@ -34,7 +34,7 @@
 <section id="home" class="hero">
 
     <div class="hero-img-container">
-        <img src="logo.png" alt="PixoPet hero image" class="hero-img">
+        <img src="image/logo.png" alt="PixoPet hero image" class="hero-img">
     </div>
 
     <article class="hero-text">
@@ -42,7 +42,7 @@
         <h3>Choose a pet. Build its home. Watch it grow.</h3>
         <p>
             PixoPet is a pixel-style virtual pet game where you can choose your own home pet, 
-            take care of it every day, decorate its room, and help it grow through fun activities. 
+            take care of it every day, decorate its home, and help it grow through fun activities. 
             Feed, play, and customize your pet while enjoying a relaxing retro pixel experience 
             designed for casual players and pet lovers of all ages.
         </p>
@@ -58,19 +58,21 @@
     <div class="feature-grid">
 
         <div class="feature-card">
-            <img src="images/feature1.png" alt="Choose pet icon">
+            <div class="pet-image-container">
+                <img id="pet-feature-img" src="image/cats.png" alt="Choose pet icon">
+            </div>
             <h3>Choose Your Pet</h3>
             <p>Select from cats, dogs, birds, and more cute pixel pets.</p>
         </div>
 
         <div class="feature-card">
-            <img src="images/feature2.png" alt="Decorate room icon">
-            <h3>Decorate Their Room</h3>
-            <p>Customize your pet’s personal room with furniture and colors.</p>
+            <img src="image/home.jpg" alt="Decorate room icon">
+            <h3>Decorate Their Home</h3>
+            <p>Customize your pet’s personal home with furniture and colors.</p>
         </div>
 
         <div class="feature-card">
-            <img src="images/feature3.png" alt="Care pet icon">
+            <img src="image/Supplies.png" alt="Care pet icon">
             <h3>Care & Level Up</h3>
             <p>Feed, clean, and play to help your pet grow stronger.</p>
         </div>
@@ -81,8 +83,31 @@
 <!-- About Section -->
 <section id="about" class="about">
     <h2>About PixoPet</h2>
-    <p>PixoPet is inspired by classic virtual pet games. It allows players to experience caring for a pet in a fun pixel world.</p>
-    <p>The game is relaxing, simple, and perfect for casual gamers and pet lovers.</p>
+    <p>
+        PixoPet is a relaxing and fun virtual pet game inspired by classic pet games.
+    </p>
+    <p>
+        Players can adopt and care for a variety of adorable pets, each with their own personalities and traits.
+    </p>
+    <p>
+        You can feed, play with, and nurture your pets while decorating their cozy rooms with furniture, wallpapers, and fun accessories.
+    </p>
+    <p>
+        As your pets grow, you unlock new activities, rewards, and items, including mini-games, seasonal events, and hidden surprises.
+    </p>
+    <p>
+        Designed for all ages, PixoPet encourages creativity, responsibility, and daily interaction, offering endless enjoyment for casual gamers and pet lovers alike.
+    </p>
+
+    <p class="highlight-title">Highlights Included:</p>
+    <ul>
+        <li><strong>Variety of pets:</strong> A variety of unique pets, each with their own personalities and needs.</li>
+        <li><strong>Caring & interaction:</strong> Feed, play, and bond with your pets daily to help them develop new skills.</li>
+        <li><strong>Room customization:</strong> Build and decorate a room that reflects your creativity.</li>
+        <li><strong>Mini-games and fun activities:</strong> Play mini-games, join seasonal events, and discover hidden rewards.</li>
+        <li><strong>Growth and rewards:</strong> Unlock surprises, earn items, and watch your pets grow and develop.</li>
+    </ul>
+
 </section>
 
 <!-- Pricing Section -->
@@ -94,9 +119,9 @@
             <h3>Free</h3>
             <h4>$0/month</h4>
             <ul>
-                <li>1 pet</li>
+                <li>1 regular pet</li>
                 <li>Basic items</li>
-                <li>Limited decorations</li>
+                <li>Basic decorations</li>
             </ul>
         </div>
 
@@ -104,8 +129,10 @@
             <h3>Premium</h3>
             <h4>$5/month</h4>
             <ul>
+                <li>Daily rewards</li>
                 <li>Unlimited pets</li>
                 <li>All decorations</li>
+                <li>1 name pet card</li>
                 <li>No ads</li>
             </ul>
         </div>
@@ -114,9 +141,10 @@
             <h3>Deluxe</h3>
             <h4>$10/month</h4>
             <ul>
-                <li>Rare pets</li>
-                <li>Special houses</li>
-                <li>Daily rewards</li>
+                <li>Premium Plan</li>
+                <li>Rare/exotic pets</li>
+                <li>Special seasonal home set's</li>
+                <li>Unlimited name pet card</li>
             </ul>
         </div>
 
@@ -140,12 +168,7 @@
 
 </main>
 
-<script>
-function toggleMenu() {
-    const nav = document.getElementById("navLinks");
-    nav.style.display = nav.style.display === "flex" ? "none" : "flex";
-}
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
