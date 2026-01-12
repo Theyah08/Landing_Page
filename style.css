@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/* =====================
-   Global Styles
-===================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +12,8 @@ body {
     line-height: 1.8;
     color: #4a4a4a;
     background-color: #fff7ed;
+    margin: 10px;
+
 }
 
 /* =====================
@@ -30,9 +30,10 @@ body {
 
 /* Text Logo only */
 .logo {
-    font-size: 18px;
+    font-size: 25px;
     color: #ff5fa2;
 }
+
 
 .logo span {
     display: block;
@@ -50,6 +51,7 @@ body {
 
 .nav-links li a {
     color: #7c73e6;
+    font-size: 13px;
     margin-left: 20px;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -106,11 +108,11 @@ body {
 .hero-text h3 {
     color: #7c73e6;
     margin-bottom: 15px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .hero-text p {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 /* =====================
@@ -122,7 +124,7 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    font-size: 10px;
+    font-size: 12px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -190,6 +192,19 @@ body {
     font-size: 10px;
 }
 
+#pet-feature-img {
+    transition: opacity 0.5s ease-in-out; /* smooth fade */
+    opacity: 1;
+}
+
+.pet-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* ensures the image scales to fit the container */
+    transition: opacity 0.5s ease-in-out; /* smooth fade */
+}
+
+
 /* =====================
    About
 ===================== */
@@ -204,8 +219,24 @@ body {
 }
 
 .about p {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 1rem;
+}
+
+.about p.highlight-title {
+    color: #7c73e6;
+    font-size: 15px;
+    margin-top: 50px; 
+    font-weight: bold; 
+}
+
+.about ul li {
+    font-size: 12px; 
+    margin-bottom: 6px; 
+}
+
+.about ul li strong {
+    color:  #e91e63; 
 }
 
 /* =====================
@@ -252,7 +283,7 @@ body {
 }
 
 .price-card li {
-    font-size: 10px;
+    font-size: 12px;
     margin: 8px 0;
 }
 
