@@ -12,7 +12,6 @@ body {
     line-height: 1.8;
     color: #4a4a4a;
     background-color: #fff7ed;
-    margin: 10px;
 
 }
 
@@ -192,16 +191,25 @@ body {
     font-size: 10px;
 }
 
+.feature-card img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
 #pet-feature-img {
-    transition: opacity 0.5s ease-in-out; /* smooth fade */
+    transition: opacity 0.5s ease-in-out; 
     opacity: 1;
 }
 
 .pet-image-container img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* ensures the image scales to fit the container */
-    transition: opacity 0.5s ease-in-out; /* smooth fade */
+    object-fit: contain; 
+    transition: opacity 0.5s ease-in-out; 
 }
 
 
@@ -334,8 +342,27 @@ footer p {
         margin-bottom: 20px;
     }
 
+    .features {
+        padding: 3rem 1rem; 
+    }
+
     .feature-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 100%; 
+        margin: 0 auto;
+    }
+
+    .feature-card {
+        padding: 20px; 
+        width: 100%; 
+        max-width: 400px; 
+        margin: 0 auto; 
+    }
+
+    .pet-image-container {
+        max-width: 500px; 
+        margin: 0 auto 12px auto;
     }
 
     .pricing-cards {
