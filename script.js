@@ -8,7 +8,7 @@ window.onload = function() {
     var petImages = [
         "image/cats.png",
         "image/Dogs.png",
-        "image/Bird.png",
+        "image/bird.png",
         "image/fish.png",
         "image/Rep.png"
     ];
@@ -29,5 +29,4 @@ window.onload = function() {
         }, 500); 
     }, 5000); 
 };
-
 
