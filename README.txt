@@ -2,7 +2,7 @@ Name: [Your Full Name]
 Student ID: [Your Student ID]
 Section: [Your Section]
 
-Live Website URL: [https://yourusername.github.io/pixopet]  
+Live Website URL: [https://theyah08.github.io/Landing_Page/]  
 
 Brief Description:
 PixoPet is a pixel-style virtual pet game where users can choose their own pixel pet, decorate its room, and take care of it as it grows. The website showcases key features, pricing plans, and provides a visually appealing design to attract casual gamers and pet lovers.
@@ -17,4 +17,5 @@ Special Features / JavaScript Functionality:
 - Responsive layout using CSS Grid and Flexbox
 
 GitHub Repository URL (optional):
-[https://github.com/yourusername/pixopet]
+
+[https://github.com/Theyah08/Landing_Page]
