@@ -5,7 +5,8 @@ Section: BSIT 2A
 Live Website URL: [https://theyah08.github.io/Landing_Page/]  
 
 Brief Description:
-PixoPet is a pixel-style virtual pet game where users can choose their own pixel pet, decorate its room, and take care of it as it grows. The website showcases key features, pricing plans, and provides a visually appealing design to attract casual gamers and pet lovers.
+PixoPet is a pixel-style virtual pet game where users can choose their own pixel pet, decorate its room, and take care of it as it grows. 
+The website showcases key features, pricing plans, and provides a visually appealing design to attract casual gamers and pet lovers.
 
 External Resources Used:
 - Google Fonts: Press Start 2P (https://fonts.google.com/)
@@ -19,3 +20,4 @@ Special Features / JavaScript Functionality:
 
 GitHub Repository URL (optional):
 [https://github.com/Theyah08/Landing_Page]
+
